@@ -1,0 +1,19 @@
+.avaliar{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.avaliar-nota{
+    display: flex;
+    align-items: center;
+}
+
+.avaliar span{
+    opacity: 60%;
+    font-size: 14px;
+}
+
+.avaliar p{
+    font-size: 16px;
+}

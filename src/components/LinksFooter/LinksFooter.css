@@ -1,0 +1,29 @@
+.linksFooter a{
+    text-decoration: none;
+    font-family: var(--fonte-karla);
+}
+
+.linksFooter a:hover{
+    color: var(--cinza);
+}
+
+.linksFooter ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style-type: none;
+}
+
+.linksFooter h4{
+    color: var(--cinza);
+    font-size: 14px;
+    margin-bottom: 0.6rem;
+}
+
+@media screen and (max-width:470px){
+    .linksFooter{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+}

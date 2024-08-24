@@ -1,0 +1,92 @@
+.cardsContainer{
+    padding: 0 4rem;
+}
+
+.enredo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 3rem;
+}
+
+.enredo div{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.enredo p{
+    font-family: var(--fonte-karla);
+    font-size: 16px;
+}
+
+.enredo h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.avaliacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    gap: 2rem;
+}
+
+.avaliacoes div{
+    display: flex;
+    align-items: center;
+}
+
+.avaliacoes button{
+    color: var(--vermelho);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.avaliacoes button:hover{
+    opacity: 60%;
+}
+
+.avaliacoes h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.spoilers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul);
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+
+.spoilers p{
+    color: var(--vermelho);
+    font-size: 16px;
+}
+
+.spoilers button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.spoilers button:hover{
+    opacity: 60%;
+}
+
+@media screen and (max-width:880px) {
+    .cardsContainer{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .cardsContainer{
+        padding: 0 1.4rem;
+    }
+}

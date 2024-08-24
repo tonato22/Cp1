@@ -1,0 +1,114 @@
+.banner{
+    background: url("src/assets/banner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4rem;
+}
+
+.banner .textos{
+    display: flex;
+    padding: 1.5rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner h3, .banner h5{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.banner h3{
+    font-size: 32px;
+}
+
+.banner h5{
+    font-size: 16px;
+}
+
+.banner .avaliacao{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.banner p{
+    font-size: 16px;
+}
+
+.banner_avaliacoes{
+    display: flex;
+    gap: 3rem;
+}
+
+.banner-avaliar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.banner .imagens{
+    display: flex;
+    padding: 0 4rem;
+    gap: 0.3rem;
+}
+
+.banner .imagens .img1{
+    width: 35%;
+}
+
+.banner .imagens .img2{
+    width: 65%;
+}
+
+.avaliacao button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.avaliacao button:hover{
+    opacity: 60%;
+}
+
+@media screen and (max-width:880px) {
+    .banner .textos{
+        padding: 1.5rem 2rem;
+    }
+
+    .banner .imagens{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width:695px){
+    .banner .textos{
+        flex-direction: column;
+    }
+
+    .banner h3{
+        text-align: center;
+    }
+
+    .banner_avaliacoes{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:400px){
+    .banner h3{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .banner .textos{
+        padding: 1.4rem;
+    }
+
+    .banner .imagens{
+        padding: 0 1.4rem;
+    }
+}

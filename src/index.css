@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Krona+One&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: var(--fonte-principal);
+  color: var(--branco);
+}
+
+:root{
+  --branco: #fff;
+  --cinza: #787B81;
+  --cinza-escuro:#1B1D23;
+  --azul:#0E1015;
+  --roxo:#1C171D;
+  --vermelho:#FF003F;
+  --rosa:#D5224E;
+  --fonte-principal:"Krona One", sans-serif;
+  --fonte-karla: "Karla", sans-serif;
+}
+
+body{
+  background-color: var(--azul);
+}

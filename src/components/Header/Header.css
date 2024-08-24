@@ -1,0 +1,110 @@
+.header{
+    background-color: var(--azul);
+    display: flex;
+    align-items: center;
+    color: var(--branco);
+    padding: 1.5rem 4rem;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.botaoMenu{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.botaoMenu:hover{
+    opacity: 60%;
+}
+
+.headerMenu{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.headerMenu p{
+    font-size: 20px;
+}
+
+.botaoLogin{
+    background-color: var(--rosa);
+    color: var(--branco);
+    padding: 0.7rem 3rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botaoLogin:hover{
+    background-color: var(--vermelho);
+}
+
+.header input{
+    font-family: var(--fonte-karla);
+    font-size: 20px;
+    width: 40%;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    background-color: var(--cinza-escuro);
+    border: none;
+    color: var(--cinza);
+    outline: none;
+    text-align: center;
+}
+
+.header input::placeholder{
+    font-family: var(--fonte-karla);
+    background-image: url("/src/assets/lupa.png");
+    background-repeat: no-repeat;
+    background-position: 1rem;
+}
+
+@media screen and (max-width:880px) {
+    .header img{
+        display: none;
+    }
+
+    .header{
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .botaoLogin{
+        color: transparent;
+        padding: 0.7rem 0.2rem;
+        background: url("src/assets/login.png") no-repeat;
+        background-position: 1rem;
+    }
+
+    .header{
+        gap: 1rem;
+    }
+
+    .botaoMenu_texto{
+        display: none;
+    }
+
+    .header input{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .header input{
+        display: none;
+    }
+
+    .botaoMenu_texto{
+        display: block;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .header{
+        padding: 1.4rem;
+    }
+}
